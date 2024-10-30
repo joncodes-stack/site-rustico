@@ -70,7 +70,7 @@ header .container {
 }
 
 .btn {
-    padding: 10px;
+    padding: 10px 50px 10px 50px;
     border-radius: 5px;
     background-color: var(--color-button);
     text-decoration: none;
@@ -78,4 +78,95 @@ header .container {
     font-size: 16px;
     font-family: "Roboto", serif;
     cursor: pointer;
+}
+
+.presentation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.content-presentation {
+    width: 650px;
+}
+
+.content-presentation h2{
+    font-size: 48px;
+    font-weight: 400;
+    color: var(--brand-dark);
+}
+
+.content-presentation p{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text);
+    font-family: "Roboto", serif;
+}
+
+.content-presentation a {
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px 50px 10px 50px;
+    border-radius: 5px;
+    background-color: var(--brand-dark);
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Roboto", serif;
+    color: var(--brand);
+}
+
+.cards {
+    background-color: var(--brand);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.cards h2 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 400;
+    color: var(--brand-dark);
+    padding-bottom: 30px;
+}
+
+.description-cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    text-align: center;
+}
+
+.content-cards {
+    border-radius: 5px;
+    background-color: #FAFAFA;
+    width: 364px;
+    height: 370px;
+    padding: 40px;
+}
+
+.content-cards h3 {
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--brand-dark);
+}
+
+.content-cards p {
+    font-size: 16px;
+    color: var(--text);
+    font-family: "Roboto", serif;
+}
+
+
+.content-cards a {
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px 99px 10px 92px;
+    border-radius: 5px;
+    background-color: var(--brand-dark);
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Roboto", serif;
+    color: var(--brand);
 }
