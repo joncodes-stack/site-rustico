@@ -40,6 +40,12 @@ header .container {
     color: var(--brand-dark);
 }
 
+.menu a:hover {
+    text-decoration: underline;
+    color: var(--brand-dark);
+}
+
+
 .hero {
     background-color: var(--brand-dark);
     height: 550px;
@@ -216,6 +222,6 @@ footer p {
     padding-top: 15px;
 }
 
-img {
+.icons img {
     margin-left: 20px;
 }
