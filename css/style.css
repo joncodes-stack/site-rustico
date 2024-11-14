@@ -12,14 +12,17 @@ body {
     font-family: "Playfair Display", serif;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     margin: 0;
 }
 
 .container {
     max-width: 1140px;
-    padding-left: 14px;
-    padding-right: 14px;
+    padding-left: 12px;
+    padding-right: 12px;
 
     margin-left: auto;
     margin-right: auto;
@@ -65,14 +68,14 @@ header .container {
     max-width: 650px;
 }
 
-.hero-content h1{
+.hero-content h1 {
     color: var(--brand-light);
     font-size: 60px;
     font-weight: 400;
     line-height: 100%;
 }
 
-.hero-content p{
+.hero-content p {
     color: var(--brand-light);
     font-size: 16px;
     font-family: "Roboto", serif;
@@ -101,13 +104,13 @@ header .container {
     max-width: 650px;
 }
 
-.content-presentation h2{
+.content-presentation h2 {
     font-size: 48px;
     font-weight: 400;
     color: var(--brand-dark);
 }
 
-.content-presentation p{
+.content-presentation p {
     font-size: 16px;
     font-weight: 400;
     color: var(--text);
@@ -140,7 +143,7 @@ header .container {
     padding-bottom: 30px;
 }
 
-.description-cards{
+.description-cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -152,10 +155,9 @@ header .container {
     background-color: #FAFAFA;
     display: flex;
     flex-direction: column;
-
     box-sizing: border-box;
     width: 364px;
-    height: 390px;
+    height: 420px;
     padding: 40px;
     text-align: center;
 }
@@ -180,7 +182,8 @@ header .container {
 .content-cards a {
     text-decoration: none;
     cursor: pointer;
-    padding: 10px 99px 10px 92px;
+    padding-top: 10px;
+    padding: 10px;
     border-radius: 5px;
     background-color: var(--brand-dark);
     display: inline-block;
@@ -265,7 +268,7 @@ footer p {
 
     .hero {
         height: 656px;
-        
+
     }
 
     .hero-description {
@@ -278,7 +281,7 @@ footer p {
         font-size: 32px;
     }
 
-    .presentation{
+    .presentation {
         flex-direction: column;
         text-align: center;
         row-gap: 36px;
