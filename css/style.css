@@ -43,6 +43,12 @@ header .container {
     color: var(--brand-dark);
 }
 
+.menu a:hover {
+    text-decoration: underline;
+    color: var(--brand-dark);
+}
+
+
 .hero {
     background-color: var(--brand-dark);
     height: 550px;
@@ -228,71 +234,8 @@ footer p {
     padding-top: 15px;
 }
 
-img {
-    margin-left: 20px;
-}
 
-@media (max-width: 1300px) {
-    .menu {
-        display: none;
-    }
 
-    .btn-menu {
-        display: flex;
-        flex-direction: column;
-        row-gap: 3px;
-    }
-
-    .bar {
-        background-color: var(--brand-dark);
-        height: 3px;
-        width: 40px;
-    }
-}
-
-@media (max-width: 1276px) {
-
-    .comment h3 {
-        font-size: 24px;
-    }
-
-    .hero {
-        height: 656px;
-        
-    }
-
-    .hero-description {
-        flex-direction: column;
-        text-align: center;
-        row-gap: 36px;
-    }
-
-    .hero-content h1 {
-        font-size: 32px;
-    }
-
-    .presentation{
-        flex-direction: column;
-        text-align: center;
-        row-gap: 36px;
-    }
-
-    .content-presentation h2 {
-        font-size: 36px;
-    }
-
-    .img-presentation {
-        display: none;
-    }
-
-    .cards h2 {
-        font-size: 36px;
-    }
-
-    .information-contact {
-        flex-direction: column;
-        justify-content: center;
-        row-gap: 36px;
-        text-align: center;
-    }
+.icons img {
+    margin-left: 30px;
 }
