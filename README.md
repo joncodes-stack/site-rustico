@@ -1,4 +1,4 @@
-#Projeto Rústico - Website de Móveis Rústicos
+# Projeto Rústico - Website de Móveis Rústicos
 
 Este projeto foi desenvolvido para exercitar e aprimorar habilidades em HTML, CSS e JavaScript. A proposta foi criar um site para uma empresa fictícia especializada na produção e venda de móveis rústicos, destacada como "A maior rede de móveis rústicos do Brasil".
 
@@ -10,14 +10,14 @@ O site apresenta uma experiência de usuário agradável e uma interface moderna
 - **CSS**: Estilização e layout responsivo, utilizando técnicas modernas de design para criar uma experiência visual coesa e atraente.
 - **JavaScript**: Adição de interatividade e dinamicidade nas páginas, como animações e funcionalidades de navegação.
 
-###Funcionalidades
+### Funcionalidades
 
 - **Catálogo de Produtos**: Uma seção dedicada para visualização dos móveis rústicos disponíveis, apresentando imagens e descrições dos produtos.
 - **Página Responsiva**: O design é totalmente responsivo, garantindo uma boa visualização tanto em desktop quanto em dispositivos móveis.
 - **Área do Cliente**: Possui uma área dedicada para clientes, facilitando o acesso a informações e suporte.
 - **Interatividade**: Botões e animações interativas para melhorar a experiência do usuário.
 
-###Estrutura do Projeto
+### Estrutura do Projeto
 
 ├── index.html         # Página inicial
 ├── styles/
@@ -28,7 +28,7 @@ O site apresenta uma experiência de usuário agradável e uma interface moderna
     ├── images/        # Imagens utilizadas no site
     └── icons/         # Ícones e outros recursos visuais
 
-###Como Executar o Projeto
+### Como Executar o Projeto
 
 1. Faça o clone do repositório:
 git clone https://github.com/seu-usuario/rustico-site.git
