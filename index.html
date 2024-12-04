@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
@@ -21,7 +23,7 @@
     <header>
         <div class="container">
             <div class="logo">
-                <img src="assets/logo-rustico-2.svg">
+                <img src="assets/icons/logo-rustico-2.svg">
             </div>
 
             <div class="btn-menu">
@@ -31,15 +33,15 @@
             </div>
 
             <div class="menu">
-                <a href="#">Página Inicial</a>
-                <a href="#">Quem Somos</a>
-                <a href="#">Catálogo</a>
-                <a href="#">Área do Cliente</a>
-                <a href="#">Fale Conosco</a>
+                <a href="#hero">Página Inicial</a>
+                <a href="#presentation">Quem Somos</a>
+                <a href="#cards">Catálogo</a>
+                <a href="#comments">Área do Cliente</a>
+                <a href="#contact">Fale Conosco</a>
             </div>
         </div>
     </header>
-    <section class="hero">
+    <section class="hero" id="hero" data-aos="fade-up">
         <div class="container">
             <div class="hero-description">
                 <div class="hero-content">
@@ -48,11 +50,11 @@
                         transformar sua casa.</p>
                     <a class="btn">Acessar Catalogo</a>
                 </div>
-                <img src="assets/cama-rustica.png" alt="cama rustica">
+                <img src="assets/images/cama-rustica.png" alt="cama rustica">
             </div>
         </div>
     </section>
-    <section class="container">
+    <section class="container" id="presentation" data-aos="fade-up">
         <div class="presentation">
             <div class="content-presentation">
                 <h2>Da nossa fábrica direto para sua casa!</h2>
@@ -69,30 +71,30 @@
                 <a href="#">Peça uma cotação</a>
             </div>
             <div class="img-presentation">
-                <img src="assets/armario-rustico.png" alt="armario rustico">
+                <img src="assets/images/armario-rustico.png" alt="armario rustico">
             </div>
         </div>
     </section>
-    <section class="cards">
+    <section class="cards" id="cards" data-aos="fade-up">
         <div class="container">
             <h2>Madeiras certificadas</h2>
             <div class="description-cards">
                 <div class="content-cards">
-                    <img src="assets/balcao.jpg" alt="">
+                    <img src="assets/images/balcao.jpg" alt="">
                     <h3>Rústico para sua casa</h3>
                     <p>Transforme sua casa com nossos móveis rústicos, que aliam beleza e praticidade. Oferecemos desde
                         mesas de jantar robustas até estantes.</p>
                     <a href="#">Ver produtos</a>
                 </div>
                 <div class="content-cards">
-                    <img src="assets/office.jpg" alt="">
+                    <img src="assets/images/office.jpg" alt="">
                     <h3>Rústico para seu trabalho</h3>
                     <p>Crie um ambiente de trabalho único e inspirador com nossa linha de móveis rústicos para empresas.
                         De mesas de reuniões a balcões de atendimento.</p>
                     <a href="#">Ver produtos</a>
                 </div>
                 <div class="content-cards">
-                    <img src="assets/mesa.jpg" alt="">
+                    <img src="assets/images/mesa.jpg" alt="">
                     <h3>Rústico para sua fazenda</h3>
                     <p>Para quem vive no campo ou deseja trazer um pedaço da vida rural para o dia a dia, nossos móveis
                         para fazenda são a escolha perfeita.</p>
@@ -101,15 +103,15 @@
             </div>
         </div>
     </section>
-    <section class="container">
+    <section class="container" id="comments" data-aos="fade-up">
         <div class="comment">
-            <img src="assets/icon.svg" alt="simbolo de comentario">
+            <img src="assets/icons/icon.svg" alt="simbolo de comentario">
             <h3>Qualidade impecável e preço justo. Recomendo!</h3>
             <p>João Silva</p>
         </div>
     </section>
     <footer>
-        <section class="container">
+        <section class="container" id="contact" data-aos="fade-up">
             <div class="information-contact">
                 <div class="first column">
                     <h4>Onde Estamos</h4>
@@ -123,14 +125,21 @@
                 <div class="third column">
                     <h4>O Rústico nas redes</h4>
                     <div class="icons">
-                        <a href="#"><img src="assets/instagram.svg"></a>
-                        <a href="#"><img src="assets/twitter.svg"></a>
-                        <a href="#"><img src="assets/Youtube.svg"></a>
+                        <a href="#"><img src="assets/icons/instagram.svg"></a>
+                        <a href="#"><img src="assets/icons/twitter.svg"></a>
+                        <a href="#"><img src="assets/icons/Youtube.svg"></a>
                     </div>
                 </div>
             </div>
         </section>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
