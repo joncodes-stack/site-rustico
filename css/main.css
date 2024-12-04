@@ -254,17 +254,36 @@ footer p {
 
 
 @media (max-width: 1300px) {
+
+    .bar {
+        transition: 0.5s;
+    }
+
+    .x .bar:first-child {
+        transform: rotate(45deg) translate(7px, 5px);
+    }
+
+    .x .bar:nth-child(2) {
+        opacity: 0;
+        transform: translate(-200px);
+    }
+
+    .x .bar:last-child {
+        transform: rotate(-45deg) translate(4px, -3px);
+    }
+
     .menu {
-        display: none;
         position: absolute;
         width: 100%;
         left: 0;
         top: 100px;
         z-index: 10;
+        transform: translateX(-100%);
+        transition: 0.3s ease-out;
     }
 
     .show {
-        display: block;
+       transform:translateY(0%);
     }
 
     .menu a {
